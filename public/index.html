@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luke Bassett" />
+    <meta
+      name="description"
+      content="A Front-end Developer from Warrington, England. I enjoy making websites come to life with CSS!"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- JavaScript -->
+    <script src="/js/main.js" async></script>
+    <title>Luke Bassett | Front-End Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-left">
+          <img src="img/luke-summer-portrait.jpg" alt="" class="nav-logo" />
+          <a class="logo-text nav-link" href="#home">Luke Bassett</a>
+        </div>
+        <ul class="nav-right" id="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link is-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" id="aboutLink">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link">Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <ul class="hero-socials">
+          <li class="hero-social">
+            <a
+              href="mailto:bassettlukej@gmail.com"
+              target="_blank"
+              rel="noopener"
+              class="hero-social-icon"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+          <li class="hero-social">
+            <a
+              href="https://www.linkedin.com/in/lukejbassett/"
+              target="_blank"
+              rel="noopener"
+              class="hero-social-icon"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="hero-social">
+            <a
+              href="https://github.com/bassett-luke"
+              target="_blank"
+              rel="noopener"
+              class="hero-social-icon"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <div class="hero-content">
+          <h1 class="hero-title">Hi, I'm Luke Bassett</h1>
+          <p class="hero-body">
+            A Front-end Developer from Warrington, England. I enjoy making
+            websites come to life with CSS!
+          </p>
+          <div class="hero-cta bg-break">
+            <button type="button" onclick="location.href='./#work'" class="btn">
+              My Work
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="main-container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-content-skills">
+              <div class="about-img-container">
+                <img
+                  src="/img/luke-summer-portrait.jpg"
+                  alt=""
+                  class="about-img"
+                />
+              </div>
+              <h3 class="section-subtitle">My Skills</h3>
+              <ul class="skills">
+                <li class="skill-item">HTML</li>
+                <li class="skill-item">CSS</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">GitHub</li>
+                <li class="skill-item">Responsive Design</li>
+                <li class="skill-item">UI / UX</li>
+                <li class="skill-item">Adobe XD</li>
+                <li class="skill-item">Photoshop</li>
+              </ul>
+            </div>
+            <div class="about-content-main">
+              <h3 class="section-subtitle">Who Am I</h3>
+              <p>
+                I am a self-taught <strong>front-end developer</strong> looking
+                for a way into the world of tech. I have been learning web
+                development for 1 year and in that time, I'm confident with
+                <strong>HTML</strong>, <strong>CSS</strong> and
+                <strong>JavaScript</strong>. I've also learnt to use
+                <strong>Adobe XD</strong> and
+                <strong>Photoshop</strong> overtime to design my website
+                templates.
+              </p>
+              <p>
+                I started playing around with computers in my early teens and
+                ever since then I have wanted to pursue a career in technology.
+                After finishing my <strong>Computing HND</strong> I have been
+                focusing on developing my Front-End skills aiming for my first
+                job in the industry.
+              </p>
+              <p>
+                I'm currently <strong>open</strong> to Job opportunities where I
+                can learn and grow. If you have any vacancies then please don't
+                hesitate to <strong>contact me!</strong>
+              </p>
+              <div class="about-cta">
+                <button
+                  type="button"
+                  onclick="location.href='./#contact'"
+                  class="btn"
+                >
+                  Contact
+                </button>
+                <button
+                  type="button"
+                  onclick="'/public/CV Luke Bassett (07-02-22).pdf'"
+                  class="btn secondary-btn"
+                >
+                  Download CV
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="work-container">
+          <h2 class="section-title">Work</h2>
+          <ul class="work-list">
+            <li class="work-list-item">
+              <a class="work-list-item-link" href="/hos.html">
+                <img src="/img/hoslogo.png" alt="Harvey's of Stretton logo" />
+              </a>
+              <div class="work-description">
+                <h3>Work Item</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Assumenda odit expedita sint autem cumque voluptatem pariatur!
+                  Illo praesentium quidem labore.
+                </p>
+              </div>
+            </li>
+            <li class="work-list-item">
+              <a href="/f1.html">
+                <img src="/img/f1logo.jpg" alt="formula 1 logo" />
+              </a>
+            </li>
+            <li class="work-list-item">
+              <a href="/rps.html">
+                <img
+                  src="/img/rpsgamelogo.png"
+                  alt="Rock, Paper, Scissors game logo"
+                />
+              </a>
+            </li>
+            <!-- <li class="work-list-item">
+              <a href="">
+                <img src="./rsrc/img/placeholder-images.jpg" alt="" />
+              </a>
+            </li>
+            <li class="work-list-item">
+              <a href="">
+                <img src="./rsrc/img/placeholder-images.jpg" alt="" />
+              </a>
+            </li>
+            <li class="work-list-item">
+              <a href="">
+                <img src="./rsrc/img/placeholder-images.jpg" alt="" />
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+      <!-- <section id="blog">
+        <div class="main-container">
+          <h2 class="section-title">Blog</h2>
+          <ul class="blog-container">
+            <li class="blog">
+              <h3>Blog Title</h3>
+              <p class="blog-subtitle">blog subtitle</p>
+              <p class="blog-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, non impedit magni error voluptas voluptates cum
+                assumenda fugit dicta quia.
+              </p>
+              <a href="" class="blog-link">Read on</a>
+            </li>
+            <li class="blog">
+              <h3>Blog Title</h3>
+              <p class="blog-subtitle">blog subtitle</p>
+              <p class="blog-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, non impedit magni error voluptas voluptates cum
+                assumenda fugit dicta quia.
+              </p>
+              <a href="" class="blog-link">Read on</a>
+            </li>
+            <li class="blog">
+              <h3>Blog Title</h3>
+              <p class="blog-subtitle">blog subtitle</p>
+              <p class="blog-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio, non impedit magni error voluptas voluptates cum
+                assumenda fugit dicta quia.
+              </p>
+              <a href="" class="blog-link">Read on</a>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+      <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="main-container">
+          <form action="#" class="contact-form" method="post">
+            <input type="hidden" name="form-name" value="form 1" />
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="name">Name</label>
+              <input
+                required=""
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact-form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="email">Email</label>
+              <input
+                required=""
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact-form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact-form-field">
+              <label class="contact-form-label" for="message">Message</label>
+              <textarea
+                required=""
+                cols="30"
+                rows="10"
+                class="contact-form-input contact-textarea"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-section">
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a
+              href="mailto:bassettlukej@gmail.com"
+              target="_blank"
+              rel="noopener"
+              class="footer-list-item-link"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+          <li class="footer-list-item">
+            <a
+              href="https://www.linkedin.com/in/lukejbassett/"
+              target="_blank"
+              rel="noopener"
+              class="footer-list-item-link"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="footer-list-item">
+            <a
+              href="https://github.com/bassett-luke"
+              target="_blank"
+              rel="noopener"
+              class="footer-list-item-link"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>2023 Created By Luke Bassett</p>
+      </div>
+    </footer>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDWW4vuqSghHzugrjZrH803PnwFW8jw09Q",
+        authDomain: "lukes-portfolio-e0b34.firebaseapp.com",
+        projectId: "lukes-portfolio-e0b34",
+        storageBucket: "lukes-portfolio-e0b34.appspot.com",
+        messagingSenderId: "294637065553",
+        appId: "1:294637065553:web:922301ff488e145c51af70",
+        measurementId: "G-7S9Q8N8ML4",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
